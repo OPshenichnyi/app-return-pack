@@ -81,4 +81,4 @@ background-color: yellow;
     width: 375px;
     background-color: green;
   }
-`;function N0(){return L.jsx(L.Fragment,{children:L.jsx(_0,{children:L.jsx(nv,{children:L.jsxs(Vt,{path:"/",element:L.jsx(hv,{}),children:[L.jsx(Vt,{path:"client",element:L.jsx(vv,{})}),L.jsx(Vt,{path:"product",element:L.jsx(yv,{})}),L.jsx(Vt,{path:"pack",element:L.jsx(kv,{})}),L.jsx(Vt,{path:"order",element:L.jsx(wv,{})}),L.jsx(Vt,{path:"completed",element:L.jsx(xv,{})})]})})})})}ui.createRoot(document.getElementById("root")).render(L.jsx(qt.StrictMode,{children:L.jsx(sv,{children:L.jsx(N0,{})})}));
+`;function N0(){return L.jsx(L.Fragment,{children:L.jsx(_0,{children:L.jsx(nv,{children:L.jsxs(Vt,{path:"/",element:L.jsx(hv,{}),children:[L.jsx(Vt,{path:"client",element:L.jsx(vv,{})}),L.jsx(Vt,{path:"product",element:L.jsx(yv,{})}),L.jsx(Vt,{path:"pack",element:L.jsx(kv,{})}),L.jsx(Vt,{path:"order",element:L.jsx(wv,{})}),L.jsx(Vt,{path:"completed",element:L.jsx(xv,{})})]})})})})}ui.createRoot(document.getElementById("root")).render(L.jsx(qt.StrictMode,{children:L.jsx(sv,{basename:"/app-return-pack",children:L.jsx(N0,{})})}));
