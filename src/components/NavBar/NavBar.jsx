@@ -1,29 +1,36 @@
-import { NavLink } from 'react-router-dom'
+import { BtnNavBar, Logo, WraperNavBar } from "./NavBar.styled";
 
 export const NavBar = () => {
   return (
-      <div>
-          <nav>
-                  <div>
-                      <ul>
-                          <li>
-                              <NavLink to="/client">Client List</NavLink>
-                          </li>
-                          <li>
-                              <NavLink to="/product" >Product List</NavLink>
-                          </li>
-                          <li>
-                              <NavLink to="/pack">Pack List</NavLink>
-                          </li>
-                          <li>
-                              <NavLink to="/order">Order List</NavLink>
-                          </li>
-                          <li>
-                              <NavLink to="/completed">Completed operation</NavLink>
-                          </li>
-                      </ul>
-                  </div>
-          </nav>
-     </div>
-  )
-}
+    <nav>
+      <WraperNavBar>
+        <Logo> APP-RETURN-PACK</Logo>
+        <ul>
+          <li>
+            <BtnNavBar to="/client">Client List</BtnNavBar>
+          </li>
+          <li>
+            <BtnNavBar to="/product">Product List</BtnNavBar>
+          </li>
+          <li>
+            <BtnNavBar to="/pack">Pack List</BtnNavBar>
+          </li>
+          <li>
+            <BtnNavBar to="/order">Order List</BtnNavBar>
+          </li>
+          <li>
+            <BtnNavBar to="/completed">Completed operation</BtnNavBar>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <BtnNavBar>Register</BtnNavBar>
+          </li>
+          <li>
+            <BtnNavBar>LogIn</BtnNavBar>
+          </li>
+        </ul>
+      </WraperNavBar>
+    </nav>
+  );
+};

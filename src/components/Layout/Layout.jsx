@@ -1,18 +1,23 @@
-import { Suspense } from 'react'
-import { Outlet } from 'react-router-dom'
-import { NavBar } from '../NavBar/NavBar'
+import { Suspense } from "react";
+import { Outlet } from "react-router-dom";
+import { NavBar } from "../NavBar/NavBar";
+import { ContainerLayout, Header, ContainerMain } from "./layout.styled";
+import Footer from "../Footer/Footer";
 
 export const Layout = () => {
-    return (
-        <>
-            <header>
-                <Suspense>
-                    <NavBar></NavBar>
-                </Suspense>
-            </header>
-            <Suspense>
-                <Outlet></Outlet>
-            </Suspense>
-        </>
-    )
-}
+  return (
+    <>
+      <ContainerLayout>
+        <Header>
+          <NavBar />
+        </Header>
+        <ContainerMain>
+          <Suspense>
+            <Outlet />
+          </Suspense>
+        </ContainerMain>
+      </ContainerLayout>
+      <Footer />
+    </>
+  );
+};

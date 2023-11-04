@@ -1,0 +1,16 @@
+[
+    {"id":"1", 
+    "nameCompany": "Beer Shop", 
+    "nameContactPerson": "Petrenko Ivan", 
+    "phone":"+380672392966", "email": "test@ukr.net",
+    "location": "city Kiev Stepana Bandery 24"
+},
+{
+    "id": "2",
+    "nameCompany": "Drink Shop",
+    "nameContactPerson": "Vasilenko Sergey",
+    "phone": "+380671491700",
+    "email": "test@gmail.com",
+    "location": "city Rivne Cadyka Nahmana 12"
+}
+]

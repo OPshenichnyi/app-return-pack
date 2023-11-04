@@ -1,10 +1,12 @@
-import { ClientCard } from './ClientCard'
+import { ClientCard } from "./ClientCard";
+import { useTable } from "react-table";
+import clientFakeDb from "./clientFakeDb.json";
 
 export const ClientList = () => {
-    return (
-        <div>
-            <div>ClientList</div>
-            <ClientCard></ClientCard>
-        </div>
-    )
-}
+  return (
+    <>
+      <ClientCard></ClientCard>
+      <div>ClientList</div>
+    </>
+  );
+};
