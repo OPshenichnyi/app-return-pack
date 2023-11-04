@@ -135,4 +135,4 @@ Error generating stack: `+i.message+`
   @media (max-width: 375px) {
     width: 375px;
   }
-`;function a2(){return L.jsx(L.Fragment,{children:L.jsx(u2,{children:L.jsx(wS,{children:L.jsxs(hr,{path:"/",element:L.jsx(UC,{}),children:[L.jsx(hr,{path:"client",element:L.jsx(e2,{})}),L.jsx(hr,{path:"product",element:L.jsx(n2,{})}),L.jsx(hr,{path:"pack",element:L.jsx(i2,{})}),L.jsx(hr,{path:"order",element:L.jsx(r2,{})}),L.jsx(hr,{path:"completed",element:L.jsx(l2,{})})]})})})})}Ga.createRoot(document.getElementById("root")).render(L.jsx(Rr.StrictMode,{children:L.jsx(kS,{children:L.jsx(a2,{})})}))});export default s2();
+`;function a2(){return L.jsx(L.Fragment,{children:L.jsx(u2,{children:L.jsx(wS,{children:L.jsxs(hr,{path:"/",element:L.jsx(UC,{}),children:[L.jsx(hr,{path:"client",element:L.jsx(e2,{})}),L.jsx(hr,{path:"product",element:L.jsx(n2,{})}),L.jsx(hr,{path:"pack",element:L.jsx(i2,{})}),L.jsx(hr,{path:"order",element:L.jsx(r2,{})}),L.jsx(hr,{path:"completed",element:L.jsx(l2,{})})]})})})})}Ga.createRoot(document.getElementById("root")).render(L.jsx(Rr.StrictMode,{children:L.jsx(kS,{basename:"/app-return-pack",children:L.jsx(a2,{})})}))});export default s2();
